@@ -1,0 +1,23 @@
+# Dependencies
+node_modules/
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Playwright output
+/test-results/
+/playwright-report/
+/blob-report/
+/.features-gen/
+/.playwright/
+/.playwright-cli/
+/playwright/.cache/
+/playwright/.auth/
+
+# Logs and local OS/editor files
+*.log
+.DS_Store
+.vscode/
+coverage/
